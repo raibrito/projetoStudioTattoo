@@ -1,0 +1,131 @@
+
+/* Estilo geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(238, 233, 233);
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: url(assets/pagInicial.jpg);
+    background-size: cover;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.contato button{
+    padding: 10px 40px;
+    font-size: 18px;    
+    font-weight: 600;
+    background-color:#d1c2b0;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    display: inline-block;
+    transform: scale(1.05);
+    margin-inline: 40px;
+}
+
+/* estilo do cabeçalho */
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+header a{
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+    transform: .2s;
+    
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav li{
+    display: inline-block;
+    padding: 0 40px;
+    cursor: pointer
+}
+
+
+
+/* topo do site*/
+
+
+section.topo-site{
+    padding: 40px 4%;
+}
+
+section.topo-site .flex{
+    max-width: 1280px;
+    margin: 0 auto;
+    gap: 90px;
+}
+
+img-topo-site{
+    height: 300vh;
+    width: 200wh;
+    object-fit: cover;
+}
+
+/*.entre-contato button{
+    padding: 10px 40px;
+    font-size: 18px;    
+    font-weight: 600;
+    background-color:#d1c2b0;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    display: inline-block;
+    transform: scale(1.05);
+    margin-inline: 40px;
+}*/
+
+.topo-site h1{
+    color: #457076;
+    font-size: 38px;
+    line-height: 40px 0;
+    margin-inline: 40px;
+}
+
+.topo-site .txt-topo-site p{
+    margin-inline: 40px 0;
+    
+    
+}
+
+/* rodape */
+.rodape{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
+
