@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
     <title>Noir Ink</title>
 </head>
+
 <body>
     <header>
         <div class="interface">
@@ -15,20 +18,16 @@
                 </a>
             </div><!--logo-->
 
-            
-
-           
-
             <nav class="menu-descktop">
                 <ul>
-                    <li><a href="home"></a>Home<a href=""></a><a href=""></a></li>
-                    <li><a href="#"></a>Quem somos<a href=""></a><a href=""></a></li>
-                    <li><a href="#"></a>Portfólio<a href=""></a><a href=""></a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#quem-somos">Quem somos</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>                    
                 </ul>
             </nav>
 
             <div class="contato">
-                <a href="#">
+                <a href="#formulario">
                     <button>Contato</button>
                 </a>
             </div><!--contato-->
@@ -36,76 +35,109 @@
         <div class="container">
 
         </div>
-        
+
     </header>
 
     <main>
-        <section class="topo-site">
+        <section id="home" class="topo-site">
             <div class="interface">
                 <div class="flex">
-                    <div class="txt-topo-site">   
-                        <h1>TRANSFORMANDO IDEIAS EM TATUAGEM<span>.</span> </h1>                  
-                        <p>Lorem ipsum dolor sit amet. 
-                        Ut fugiat alias quo natus ipsum qui nesciunt quaerat qui veniam deserunt <br> 
-                        rem eius repudiandae!
-                        Eum odio pariatur eum voluptatem similique ea ducimus praesentium <br> ut omnis incidunt vel perferendis saepe.</p>
-
-                        <!--<div class="entre-contato">
-                            <a href="#">
-                                <button>Entre em contato</button>
-                            </a>
-                        </div>  -->  
-
+                    <div class="txt-topo-site">
+                        <h1>TRANSFORMANDO IDEIAS EM TATUAGEM<span>.</span> </h1>
+                        <p>Lorem ipsum dolor sit amet.
+                            Ut fugiat alias quo natus ipsum qui nesciunt quaerat qui veniam deserunt
+                            rem eius repudiandae!
+                            Eum odio pariatur eum voluptatem similique ea ducimus praesentium ut omnis incidunt vel
+                            perferendis saepe.</p>
                     </div><!--topo-site-->
 
-                    <!--<div class="img-topo-site">
-                        <img src="assets/pagInicial.jpg" alt=""-->
 
-                    </div><!--img-topo-site-->
-                </div><!--flex-->
+
+                </div><!--img-topo-site-->
+            </div><!--flex-->
             </div><!--interface-->
         </section><!--topo-site-->
 
-        <section class="quem-somos">
+        <section id="quem-somos" class="quem-somos">
             <div class="interface">
                 <h2 class="titulo">QUEM SOMOS</h2>
                 <div class="flex">
 
                     <div class="quem-somos-box">
-                            <img src="assets/quemSomos.jpg" alt="">
-                            <h3>Pessoa1</h3>
-                            <p>Lorem ipsum dolor sit amet. Non suscipit fuga non pariatur 
-                                 obcaecati in veniam perferendis? Id libero consequatur non 
-                                  dignissimos vitae qui quia impedit qui obcaecati quod hic voluptatibus sunt ut vero quisquam aut libero voluptas.</p>
+                        <img src="assets/quemSomos.jpg" alt="">
+                        <h3>Gabi</h3>
+                        <p>Lorem ipsum dolor sit amet. Non suscipit fuga non pariatur
+                            obcaecati in veniam perferendis? Id libero consequatur non
+                            dignissimos vitae qui quia impedit qui obcaecati quod hic voluptatibus sunt ut vero quisquam
+                            aut libero voluptas.</p>
                     </div><!--quem-somos-box-->
 
                     <div class="quem-somos-box">
-                            <img src="assets/quemSomos2.jpg" alt="">
-                            <h3>Pessoa1</h3>
-                            <p>Lorem ipsum dolor sit amet. Non suscipit fuga non pariatur 
-                                 obcaecati in veniam perferendis? Id libero consequatur non 
-                                  dignissimos vitae qui quia impedit qui obcaecati quod hic voluptatibus sunt ut vero quisquam aut libero voluptas.</p>
+                        <img src="assets/quemSomos2.jpg" alt="">
+                        <h3>Binha</h3>
+                        <p>Lorem ipsum dolor sit amet. Non suscipit fuga non pariatur
+                            obcaecati in veniam perferendis? Id libero consequatur non
+                            dignissimos vitae qui quia impedit qui obcaecati quod hic voluptatibus sunt ut vero quisquam
+                            aut libero voluptas.</p>
                     </div><!--quem-somos-box-->
 
                     <div class="quem-somos-box">
-                            <img src="assets/quemSomos3.jpg" alt="">
-                            <h3>Pessoa1</h3>
-                            <p>Lorem ipsum dolor sit amet. Non suscipit fuga non pariatur 
-                                 obcaecati in veniam perferendis? Id libero consequatur non 
-                                  dignissimos vitae qui quia impedit qui obcaecati quod hic voluptatibus sunt ut vero quisquam aut libero voluptas.</p>
+                        <img src="assets/quemSomos3.jpg" alt="">
+                        <h3>Nanda</h3>
+                        <p>Lorem ipsum dolor sit amet. Non suscipit fuga non pariatur
+                            obcaecati in veniam perferendis? Id libero consequatur non
+                            dignissimos vitae qui quia impedit qui obcaecati quod hic voluptatibus sunt ut vero quisquam
+                            aut libero voluptas.</p>
                     </div><!--quem-somos-box-->
 
                 </div><!--flex-->
             </div><!--interface-->
         </section><!--quem-somos-->
 
+        <section id="portfolio"  class="portfolio">
+            <div class="interface">
+                <h1 class="titulo">NOSSO <span>PORTFÓLIO</span></h1><br>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(assets/tatoo1-transformed.png);"></div>
+                    <div class="img-port" style="background-image: url(assets/tatuagem.jpg);"></div>
+                    <div class="img-port" style="background-image: url(assets/tatoo2-transformed.png);"></div>
+                </div> <br>
+                <div class="flex">
+                    <div class="img-port2" style="background-image: url(assets/tatoo3.jpg);"></div>
+                    <div class="img-port2" style="background-image: url(assets/tatoo4.png);"></div>
+                    <div class="img-port2" style="background-image: url(assets/tatoo5.png);"></div>
+                </div>
+            </div><!--interface-->
+        </section><!--portfolio-->
+
+        <section id="formulario" class="formulario">
+            <div class="interface">
+                <h2 class="titulo">Faça o seu orçamento</h2>
+
+                <form action="">
+                    <input type="text" name="name" id="name" placeholder="Nome" required>
+                    <input type="text" name="email" id="email" placeholder="Email" required>
+                    <input type="text" name="celular" id="celular" placeholder="Celular" required>
+                    <textarea name="texto" id="texto" placeholder="Descrição da tatuagem" required></textarea>
+                    <input type="file" name="arquivo" id="arquivo" required>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+            </div><!--interface-->
+        </section><!--formulario-->
+
     </main>
 </body>
 <footer>
-    <div class="rodape">
-        
-            Noir Ink <span>&#174;</span>
-        
-    </div><!--rodape-->
+    <div class="interface">
+        <div class="flex">
+            <div class="registro">
+                Noir Ink <span>&#174;</span>
+                <div class="email">
+                    <p><a href="mailto:noirink@noirink.com.br">noirink@noirink.com.br</a></p>
+                </div><!--email-->
+            </div><!--registro-->
+        </div><!--flex-->
+    </div><!--interface-->
 </footer>
+
 </html>

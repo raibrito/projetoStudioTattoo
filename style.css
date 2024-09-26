@@ -1,45 +1,44 @@
-
 /* Estilo geral*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: rgb(238, 233, 233);
     height: 100vh;
-    font-family: Arial, Helvetica, sans-serif ;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h2.titulo{
+h2.titulo {
     font-size: 38px;
     text-align: center;
     color: #457076;
-    
+
 }
 
-.container{
+.container {
     width: 100vw;
     height: 100vh;
     background: url(assets/pagInicial.jpg);
     background-size: cover;
 }
 
-.interface{
+.interface {
     max-width: 1280px;
     margin: 0 auto;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-.contato button{
+.contato button {
     padding: 10px 40px;
-    font-size: 18px;    
+    font-size: 18px;
     font-weight: 600;
-    background-color:#d1c2b0;
+    background-color: #d1c2b0;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -50,34 +49,34 @@ h2.titulo{
 
 /* estilo do cabeçalho */
 
-header{
+header {
     padding: 40px 4%;
 }
 
-header > .interface{
+header>.interface {
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
-header a{
+header a {
     color: #5c5c5c;
     text-decoration: none;
     display: inline-block;
     transform: .2s;
-    
+
 }
 
-header a:hover{
+header a:hover {
     color: #fff;
     transform: scale(1.05);
 }
 
-header nav ul{
+header nav ul {
     list-style: none;
 }
 
-header nav li{
+header nav li {
     display: inline-block;
     padding: 0 40px;
     cursor: pointer
@@ -87,37 +86,24 @@ header nav li{
 
 /* topo do site*/
 
-
-section.topo-site{
+section.topo-site {
     padding: 40px 4%;
 }
 
-section.topo-site .flex{
+section.topo-site .flex {
     max-width: 1280px;
     margin: 0 auto;
     gap: 90px;
 }
 
-img-topo-site{
+.img-topo-site {
     height: 300vh;
     width: 200wh;
     object-fit: cover;
 }
 
-/*.entre-contato button{
-    padding: 10px 40px;
-    font-size: 18px;    
-    font-weight: 600;
-    background-color:#d1c2b0;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-    display: inline-block;
-    transform: scale(1.05);
-    margin-inline: 40px;
-}*/
 
-.topo-site h1{
+.topo-site h1 {
     color: #457076;
     font-size: 38px;
     line-height: 40px 0;
@@ -125,54 +111,185 @@ img-topo-site{
     padding: 40px 4%;
 }
 
-.topo-site .txt-topo-site p{
+.topo-site .txt-topo-site p {
     margin-inline: 40px 0;
     padding: 40px 4%;
-    
-    
-}
-
-
-
-/*quem-somos-box*/
-section.quem-somos{
-    padding: 40px 4%;
-}
-section.quem-somos .flex{
-    gap: 60px;
-}
-
-.quem-somos .quem-somos-box{
-    padding: 40px;
-    border-radius: 20px;   
-    margin-top: 45px;
-    transition: .2s;
-}
-.quem-somos .quem-somos-box:hover{
-    transform: scale(1.05);  
-    box-shadow: 0 0 8px #457076;  
-}
-
-.quem-somos .quem-somos-box img{
-    height: 100vh;
-    width: 50wh;
-    object-fit: cover;
-}
-.quem-somos .quem-somos-box h3{
-    font-size: 28px;
-    margin: 15px 0;
-}
-.quem-somos .quem-somos-box p{
     text-align: justify;
 }
 
 
+/*quem-somos-box*/
+section.quem-somos {
+    padding: 40px 4%;
+}
+
+section.quem-somos .flex {
+    gap: 60px;
+}
+
+.quem-somos .quem-somos-box {
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.quem-somos .quem-somos-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #457076;
+}
+
+.quem-somos .quem-somos-box img {
+    height: 100vh;
+    width: 50wh;
+    object-fit: cover;
+}
+
+.quem-somos .quem-somos-box h3 {
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+.quem-somos .quem-somos-box p {
+    text-align: justify;
+}
+
+/* ESTILO PORTFOLIO */
+section.portfolio {
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffffbe;
+}
+
+section.portfolio .flex {
+    justify-content: space-around;
+
+}
 
 
+section.portfolio .titulo {
+    color: #457076;
+    font-size: 38px;
+    line-height: 40px 0;
+    margin-inline: 40px;
+    text-align: center;
+}
 
+.img-port {
+    width: 360px;
+    height: 460px;
+    background-color: #457076;
+    background-size: cover;
+    background-position: 50% 100%;
+    cursor: pointer;
+}
+
+.img-port:hover {
+    background-position: 100% 100%
+}
+
+.img-port2 {
+    width: 360px;
+    height: 460px;
+    background-color: #457076;
+    background-size: cover;
+    background-position: 50% 60%;
+    cursor: pointer;
+}
+
+.img-port2:hover {
+    background-position: 100% 100%
+}
+
+/*ESTILO FORMULÁRIO */
+section.formulario {
+    padding: 80px 4%;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input,
+form textarea {
+    margin-top: 10px;
+    width: 100%;
+    background-color: #4570764d;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+form textarea {
+    resize: none;
+    max-height: 300px;
+}
+
+form .btn-enviar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input {
+    width: 120px;
+    background-color: #457076;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0px 0px 8px;
+    transform: scale(1.05);
+}
 
 /* rodape */
-.rodape{
+footer {
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffffbe;
     font-family: 'Times New Roman', Times, serif;
-    font-size: small;
+    font-size: 15px;
+}
+
+/* recriar o css sempre que minha página for menor que 960px: */
+@media screen and (max-width: 1000px) {
+
+    /* classes gerias */
+    .flex {
+        flex-direction: column;
+    }
+
+    /* cabeçalho */
+    
+
+    /* topo do site */
+
+    section.topo-site .flex {
+        gap: 30px;
+    }
+
+    .topo-site h1 {
+        font-size: 30px;
+    }
+
+    .img-topo-site {
+        width: 80%;
+        text-align: center;
+    }
+
+    .topo-site .txt-topo-site p {
+        font-size: 20px;
+    }
+
+    /* quem somos */
+    section.quem-somos .flex {
+        gap: 100px;
+    }
+
+    .quem-somos .quem-somos-box img {
+        width: 100%;
+    }
 }
